@@ -42,12 +42,6 @@ public class Cliente {
 		//Si tipo Go == "Go", crear un tablero de tipo Go.
 	}
 	
-	public void registrarJugador(String name, String password) {
-		//Validar que el jugador no exista
-	//	Jugador tmpJugador = new Jugador(name, password);
-		//jugadores.add(tmpJugador);
-	}
-	
 	public boolean autenticarJugador(String name) {
 		for(Jugador x : jugadores) {
 			if(x.getName() == name)
